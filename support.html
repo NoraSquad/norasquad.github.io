@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Nora Squad</title>
+<meta name="description" content="Contact Nora Squad support, documentation and frequently asked questions.">
+<meta property="og:title" content="Support – Nora Squad">
+<meta property="og:description" content="Contact Nora Squad support, documentation and frequently asked questions.">
+<meta property="og:image" content="img/social.jpg">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="index.html">NORA <span>SQUAD</span></a>
+  <nav><a href="index.html#packs">Packs</a><a href="index.html#features">Features</a><a href="support.html">Support</a></nav>
+</div></header>
+
+<section><div class="wrap">
+  <h2>Support &amp; contact</h2>
+  <p class="lead">Questions, bug reports, feature requests or business enquiries: write to us and we will get back to you.</p>
+  <div class="two">
+    <div class="panel">
+      <h3 style="margin-top:0">Email</h3>
+      <p><a class="btn" href="mailto:contact.norasquad@gmail.com?subject=Nora%20Squad%20support">contact.norasquad@gmail.com</a></p>
+      <p class="meta">To help us answer quickly, please include:</p>
+      <ul class="meta">
+        <li>the pack name and the character</li>
+        <li>your Unity version and render pipeline (URP or Built-in)</li>
+        <li>what you expected and what happened, with a screenshot if possible</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3 style="margin-top:0">Documentation</h3>
+      <p class="meta">Every pack includes the documentation in <code>Nora Squad/Documentation</code>. You can also read it here:</p>
+      <p><a class="btn ghost" href="Nora-Squad-Documentation.pdf" target="_blank">Documentation (PDF)</a></p>
+      <p class="meta">In Unity: <b>Tools ▸ Nora Squad ▸ Welcome</b> opens the demo scenes, the demo effect tools, the documentation and support.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <h2 style="margin-top:48px">FAQ</h2>
+    <h3>Which Unity versions and render pipelines are supported?</h3>
+    <p>Unity 2022.3 LTS or newer, including Unity 6. The materials work in the Universal Render Pipeline and the Built-in Render Pipeline without conversion.</p>
+    <h3>Can I combine several packs in one project?</h3>
+    <p>Yes. All packs share the same folders and scripts, so importing a second pack adds its characters next to the first. The demo scenes find every Nora Squad character in your project automatically.</p>
+    <h3>Can I use my own animations or Animator Controller?</h3>
+    <p>Yes. The characters use a Generic rig and the clips are regular animation clips. Keep the NoraCharacter component (or any script with <code>OnHit()</code> / <code>OnSkill()</code>) to receive the impact events.</p>
+    <h3>Do I need the demo effects?</h3>
+    <p>No, they only show where the impact events fire. Use <b>Tools ▸ Nora Squad ▸ Demo Effects</b> to disable them or remove them from the project without leaving missing references.</p>
+    <h3>I own the Starter pack. What happens when I buy a themed pack?</h3>
+    <p>Import it into the same project. Shared files are identical, so nothing breaks and the new characters appear in the demo scenes.</p>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>© Nora Squad · Stylized fantasy characters for Unity</span>
+  <span><a href="support.html">Support &amp; contact</a> · <a href="mailto:contact.norasquad@gmail.com">contact.norasquad@gmail.com</a></span>
+</div></footer>
+</body>
+</html>
